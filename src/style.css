@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  height: 100vh;
+}
+
+#app canvas {
+  max-height: 100vh;
+}
+
+.country-label {
+  width: 50px;
+  height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.country-flag {
+  font-size: 1.25em;
+}
+.country-name {
+  font-size: 0.5em;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.5);
+}
